@@ -1,50 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f4f0e6;
+    background: #f7f4eb;
     color: #333;
 }
+
 header {
+    background: #e8dfcf;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hero {
     text-align: center;
     padding: 50px 20px;
+    background: #f5f2e7;
 }
-header h1 {
+
+.hero h1 {
     font-size: 36px;
     margin-bottom: 10px;
 }
-header p {
-    font-size: 20px;
-    margin-bottom: 20px;
+
+.hero p {
+    font-size: 18px;
 }
+
 .btn {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
+    background: #333;
+    color: white;
     padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
     text-decoration: none;
     border-radius: 5px;
 }
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #e8dfd1;
-}
-footer .social-links a {
-    margin: 0 10px;
-    color: #000;
-    text-decoration: none;
-}
+
 .services {
-    padding: 20px;
+    padding: 50px 20px;
 }
-.service {
-    background: #fff;
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 40px;
 }
-.service h2 {
-    margin-top: 0;
+
+.service-item {
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.service-item img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #e8dfcf;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
