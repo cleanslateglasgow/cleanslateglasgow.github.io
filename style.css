@@ -106,6 +106,17 @@ footer {
     margin-top: 40px;
 }
 
+footer .social-icons {
+    margin-bottom: 10px;
+}
+
+footer .social-icons a {
+    color: #333;
+    font-size: 40px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
 .whatsapp-button {
     position: fixed;
     bottom: 20px;
