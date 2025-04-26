@@ -1,88 +1,70 @@
 body {
-    font-family: 'Helvetica Neue', sans-serif;
-    margin: 0;
-    background: #f7f4eb;
-    color: #333;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f6ed;
+  color: #333;
 }
-
 header {
-    background: #e8dfcf;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #efe7d6;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-header .logo {
-    font-weight: bold;
-    font-size: 20px;
+.logo {
+  height: 50px;
 }
-
 nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
 }
-
 .hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: #f5f2e7;
+  text-align: center;
+  padding: 80px 20px;
 }
-
 .hero h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
-
 .hero p {
-    font-size: 18px;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
-
 .btn {
-    background: #333;
-    color: white;
-    padding: 10px 20px;
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
-    border-radius: 5px;
+  background: #333;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
 }
-
-.services {
-    padding: 50px 20px;
-}
-
-.services h2 {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.service-item {
-    background: white;
-    margin-bottom: 30px;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-.service-item img {
-    width: 50px;
-    margin-bottom: 15px;
-}
-
 footer {
-    background: #e8dfcf;
-    padding: 20px;
-    text-align: center;
-    font-size: 14px;
+  background: #efe7d6;
+  text-align: center;
+  padding: 20px;
 }
-
-.social-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
+footer .social-icons img {
+  width: 40px;
+  margin: 0 10px;
+}
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.service-card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+.service-card img {
+  width: 60px;
+  margin-bottom: 20px;
 }
