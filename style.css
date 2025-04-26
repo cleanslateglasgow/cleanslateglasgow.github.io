@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #f9f5f0;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 .services {
-    background-color: #fff8f0;
+    background-color: #ffffff;
     padding: 60px 30px;
     text-align: center;
 }
@@ -87,20 +87,10 @@ nav ul li a {
     text-decoration: none;
     color: inherit;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-}
-
-.service-item:hover {
-    transform: translateY(-5px);
-}
-
-.service-item i {
-    color: #333;
-    margin-bottom: 10px;
 }
 
 .service-item h3 {
-    margin: 10px 0 10px;
+    margin-bottom: 10px;
     font-size: 20px;
 }
 
