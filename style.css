@@ -1,79 +1,47 @@
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Helvetica Neue', sans-serif;
-}
-
 body {
-  background-color: #ffffff;
-  color: #333;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f2e7;
+    color: #333;
 }
 
-header.compact-header {
-  background-color: #f0e8db;
-  text-align: center;
-  padding: 15px 20px;
+header {
+    background-color: #f0e8d9;
+    padding: 50px;
+    text-align: center;
 }
 
-.main-logo {
-  height: 60px;
-  margin-bottom: 10px;
+header h1 {
+    margin: 0;
+    font-size: 36px;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+header p {
+    margin: 10px 0 20px;
 }
 
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: 500;
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-.hero {
-  padding: 90px 40px 120px;
-  text-align: center;
-  background-color: #f2ede5;
+section#services {
+    padding: 50px;
+    background: white;
 }
 
-.hero h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.cta-button {
-  background-color: #333;
-  color: #fff;
-  padding: 12px 30px;
-  text-decoration: none;
-  border-radius: 4px;
+section#services h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0e8db;
-  margin-top: 40px;
-}
-
-footer .social-icons {
-  margin-bottom: 10px;
-}
-
-footer .social-icons a {
-  color: #333;
-  font-size: 40px;
-  margin: 0 15px;
-  text-decoration: none;
+    background-color: #f0e8d9;
+    text-align: center;
+    padding: 20px;
 }
